@@ -13,7 +13,6 @@ export default function App() {
   const modelRef = useRef(null);
   const webcamRef = useRef(null);
 
-  // Inicia el modelo
   const init = async () => {
     if (isStarted) return;
     setIsStarted(true);
@@ -74,21 +73,36 @@ export default function App() {
         boxSizing: "border-box",
       }}
     >
-      {/* Título fijo arriba */}
+      {/* Título */}
       <h1
         style={{
           color: "#ffffffff",
           fontSize: "2.5rem",
           fontWeight: "700",
           textAlign: "center",
-          marginBottom: "40px",
+          marginBottom: "15px",
           textShadow: "0 2px 4px rgba(0,0,0,0.1)",
         }}
       >
         Identificador de frutas
       </h1>
 
-      {/* Contenedor principal: cámara y tarjeta */}
+      {/* Descripción */}
+      <p
+        style={{
+          color: "#ffffffcc",
+          fontSize: "1.2rem",
+          textAlign: "center",
+          maxWidth: "800px",
+          margin: "0 auto 40px auto",
+          lineHeight: "1.6",
+        }}
+      >
+        Usa tu cámara para mostrar una fruta y nuestro modelo de IA la reconocerá en tiempo real. Obtendrás información
+        nutricional de cada fruta de manera interactiva.
+      </p>
+
+      {/* Contenedor: cámara y tarjeta */}
       <div
         style={{
           display: "flex",
