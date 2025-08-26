@@ -34,7 +34,7 @@ export default function CameraPanel({ init, isStarted, webcamContainerRef }) {
         onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
         onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
       >
-        {isStarted ? "En Funcionamiento" : "Iniciar Cámara"}
+        {isStarted ? "En funcionamiento" : "Iniciar cámara"}
       </button>
 
       <div
@@ -61,7 +61,7 @@ export default function CameraPanel({ init, isStarted, webcamContainerRef }) {
               padding: "20px",
             }}
           >
-            Presiona "Iniciar Cámara" para comenzar
+            Presiona "Iniciar cámara" para comenzar
           </div>
         )}
       </div>

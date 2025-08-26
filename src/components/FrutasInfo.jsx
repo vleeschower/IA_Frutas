@@ -1,37 +1,37 @@
 export const FRUITS_INFO = {
   Manzana: {
-    color: "#fc4444ff",
+    color: "#f03939ff",
     descripcion:
       "La manzana es rica en fibra y antioxidantes. Ideal para la salud del corazón.",
-    imagen: "https://img.icons8.com/color/96/apple.png",
+    imagen: "../images/manzana.png",
   },
-  Plátano: {
-    color: "#ffd633",
+  Platano: {
+    color: "#eec831ff",
     descripcion: "El plátano es una gran fuente de potasio y energía rápida.",
-    imagen: "https://img.icons8.com/color/96/banana.png",
+    imagen: "../images/platano.png",
   },
   Naranja: {
-    color: "#ffa500",
+    color: "#eb9a05ff",
     descripcion:
       "La naranja contiene mucha vitamina C, perfecta para el sistema inmune.",
-    imagen: "https://img.icons8.com/color/96/orange.png",
+    imagen: "../images/naranja.png",
   },
   Aguacate: {
-    color: "#6ab04c",
+    color: "#64b143ff",
     descripcion:
       "El aguacate es rico en grasas saludables y vitamina E, ideal para el corazón y la piel.",
-    imagen: "https://img.icons8.com/color/96/avocado.png",
+    imagen: "../images/aguacate.png",
   },
   Fresa: {
-    color: "#ff4d94",
+    color: "#aa143aff",
     descripcion:
       "La fresa es una fruta baja en calorías, rica en vitamina C y antioxidantes.",
-    imagen: "https://img.icons8.com/color/96/strawberry.png",
+    imagen: "../images/fresa.png",
   },
   Piña: {
-    color: "#ffb84d",
+    color: "#e49c32ff",
     descripcion:
       "La piña contiene bromelina, vitaminas y minerales que ayudan a la digestión y refuerzan el sistema inmune.",
-    imagen: "https://img.icons8.com/color/96/pineapple.png",
+    imagen: "../images/piña.png",
   },
 };

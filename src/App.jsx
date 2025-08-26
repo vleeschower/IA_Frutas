@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import * as tmImage from "@teachablemachine/image";
-import CameraPanel from "./components/CamaraTarjeta"; // Panel de cámara
-import FruitCard from "./components/FrutasTarjeta"; // Tarjeta de fruta
+import CameraPanel from "./components/CamaraTarjeta";
+import FruitCard from "./components/FrutasTarjeta";
 
 const MODEL_URL = "https://teachablemachine.withgoogle.com/models/aBYpSNoF_/";
 
@@ -53,7 +53,7 @@ export default function App() {
       prev.probability > current.probability ? prev : current
     );
 
-    if (best.probability > 0.8) {
+    if (best.probability > 0.9) {
       setBestPrediction(best.className);
     } else {
       setBestPrediction(null);
